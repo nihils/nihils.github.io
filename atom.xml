@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>nihils blog</title>
+    <link href="http://nihil.io/atom.xml" rel="self" />
+    <link href="http://nihil.io" />
+    <id>http://nihil.io/atom.xml</id>
+    <author>
+        <name>Nihil Shah</name>
+        <email></email>
+    </author>
+    <updated>2015-01-27T00:00:00Z</updated>
+    <entry>
+    <title>A Introduction to the Foundations of Mathematics</title>
+    <link href="http://nihil.io/posts/an_introduction_to_current_foundations_of_mathematics.html" />
+    <id>http://nihil.io/posts/an_introduction_to_current_foundations_of_mathematics.html</id>
+    <published>2015-01-27T00:00:00Z</published>
+    <updated>2015-01-27T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>A Introduction to the Foundations of Mathematics</title>
+	<meta name="description" content="A place on the web to showcase nihil's projects and thoughts">
+	<meta name="author" content="nihils">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="../stylesheets/base.css">
+	<link rel="stylesheet" href="../stylesheets/skeleton.css">
+	<link rel="stylesheet" href="../stylesheets/layout.css">
+
+	<!-- Javascript
+  ================================================== -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+</head>
+<body>
+	<!-- Primary Page Layout
+	================================================== -->
+	<div class="container">
+	    <div class="row"> 
+		<div class="two columns">
+		    <a href="../index.html">&larr; list</a>
+		</div>
+		<div class="sixteen columns">
+		  <center><h2>A Introduction to the Foundations of Mathematics</h2></center>
+		</div>
+		<div class="two columns offset-by-eight">
+		  <center><h6>by Nihil Shah</h6></center>
+		</div>
+		<div class="two columns offset-by-fifteen">
+		  <h6>January 27, 2015</h6>
+		</div>
+	    </div>
+	    <hr class="large"/>
+	    <div class="row">
+		<div class="sixteen columns">
+		<p>The analysis of a metaphysics splits into two disciplines: epistemology and ontology. Roughly speaking, epistemology addresses questions of knowledge: what considered valid knowledge? invalid knowledge? what is a good justification? bad justification? On the other hand, ontology addresses questions of existence or being: what is considered to exist? not exist? what constitutes the identity of an object? I use these two aspects, in metaphysics, to frame my presentation of the foundations of mathematics. Namely, in contemporary mathematical practice, the primary mode of demonstrating a mathematical truth is to provide a proof of some proposition about mathematical objects. Hence, the determination of what constitutes a valid proof in mathematics fixes an epistemology and the determination of what constites a mathematical object fixes an ontology. These two determinations correspond to the two halves of the foundations of mathematics: first-order logic and Zeremelo-Faenkel with Choice (ZFC) set theory.</p>
+<p>First-order logic is the formal language in which all mathematical truths, may in principle, be stated. Namely, first-order logic only allows propostions formed from primitive terms, predicates, variables, and the words “and”,“not”,“or”,“implies”, “for all”, “<br /><span class="math"> = </span><br /> (equals)” and “there exists”. Further, first-order logic restricts reasoning to only deductive rules of inference such as modus ponens (i.e. A is true and <code>A implies B</code> is true, then B is true) and and-elimination (i.e. A and B is true, then B is true). A formal proof is a list of statements in first-order logic that are linked by these deductive rules of inference. That is, the valid forms of knowledge are dictated by statements that are expressible in first order logic. The deductive rules of inference that constitute a proof define the standard for good justification in mathematics. In this way, first-order logic through defining the language for valid statements and the rules for providing good justification can been seen as determining an epistemology for mathematics.</p>
+<p>Zeremelo-Faenkal with Choice (ZFC) set theory is a list of axioms stated in first-order logic with predicate <br /><span class="math"> ∈ </span><br /> denoting’is a member of’. Roughly speaking, a set is considered to be a collection of objects. However, as the paradoxes of the so-called ‘foundational crisis’ of the 20th century (e.g. Russel’s Paradox) demonstrate, this notion is not a definition that yields consistent results. For this reason, ZFC is used to formalize and lay down the rules for how the intuitive notion of a ‘set’ is supposed to operate in mathematics. Most objects that mathematicians talk about follow the properties stated by ZFC set theory. Each axiom in ZFC, with the exception of the axiom of extensionality, establishes the existence of some set. For example, the empty set axiom states that there exists a set with no members (i.e. <br /><span class="math">$$\exist B \forall x (x \not\in B)$) Another example is the power set axiom which states that for every set $$</span><br />A<br /><span class="math">, <em>a</em><em>l</em><em>l</em><em>t</em><em>h</em><em>e</em><em>s</em><em>u</em><em>b</em><em>s</em><em>e</em><em>t</em><em>s</em><em>o</em><em>f</em><em>t</em><em>h</em><em>e</em><em>s</em><em>e</em><em>t</em><em>f</em><em>o</em><em>r</em><em>m</em><em>a</em><em>s</em><em>e</em><em>t</em><em>c</em><em>a</em><em>l</em><em>l</em><em>e</em><em>d</em><em>t</em><em>h</em><em>e</em><em>p</em><em>o</em><em>w</em><em>e</em><em>r</em><em>s</em><em>e</em><em>t</em><em>o</em><em>f</em></span><br />A$$. Further, the exceptional axiom, the axiom of extensionality provides a critrion for the identity of a set (i.e. when two sets are actually the same set). Since every axiom (except one) establishes the existence of some set and most mathematical objects follow these rules, ZFC set theory can been seen as fixing the ontology of mathematics.</p>
+<p>The connection between first-order logic (the epistemology) and ZFC set theory (the ontology) is established on the metamathematical level by two theorems in mathematical logic called Soundnesss and Completeness. I will address this connection and the two theorems in my next post.</p>
+		</div>
+	    </div>
+	    <div class="row">
+		<div class="four columns offset-by-six">
+		    <h4 style="text-align: center;">Contact</h3>
+		    <center><a href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#110;&#105;&#104;&#105;&#108;&#64;&#98;&#101;&#114;&#107;&#101;&#108;&#101;&#121;&#46;&#101;&#100;&#117;'>&#110;&#105;&#104;&#105;&#108;&#64;&#98;&#101;&#114;&#107;&#101;&#108;&#101;&#121;&#46;&#101;&#100;&#117;</a></center>
+		</div>
+	    </div>
+	    <div class="row">
+		<div class="four columns offset-by-six">
+		    <center><a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/80x15.png" /></a></center>
+		</div>
+	    </div>
+	</div><!-- container -->
+
+
+<!-- End Document
+================================================== -->
+</body>
+</html>
+]]></summary>
+</entry>
+<entry>
+    <title>Category Theory and Carnap's Aufbau</title>
+    <link href="http://nihil.io/posts/category_theory_revitalization_of_carnaps_aufbau.html" />
+    <id>http://nihil.io/posts/category_theory_revitalization_of_carnaps_aufbau.html</id>
+    <published>2014-06-19T00:00:00Z</published>
+    <updated>2014-06-19T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Category Theory and Carnap's Aufbau</title>
+	<meta name="description" content="A place on the web to showcase nihil's projects and thoughts">
+	<meta name="author" content="nihils">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="../stylesheets/base.css">
+	<link rel="stylesheet" href="../stylesheets/skeleton.css">
+	<link rel="stylesheet" href="../stylesheets/layout.css">
+
+	<!-- Javascript
+  ================================================== -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+</head>
+<body>
+	<!-- Primary Page Layout
+	================================================== -->
+	<div class="container">
+	    <div class="row"> 
+		<div class="two columns">
+		    <a href="../index.html">&larr; list</a>
+		</div>
+		<div class="sixteen columns">
+		  <center><h2>Category Theory and Carnap's Aufbau</h2></center>
+		</div>
+		<div class="two columns offset-by-eight">
+		  <center><h6>by Nihil Shah</h6></center>
+		</div>
+		<div class="two columns offset-by-fifteen">
+		  <h6>June 19, 2014</h6>
+		</div>
+	    </div>
+	    <hr class="large"/>
+	    <div class="row">
+		<div class="sixteen columns">
+		<p>Carnap’s <em>Aufbau</em> was an attempt to link the phenomenological analysis of human sense objects to the scientific conception of the world. More precisely, its aim was to come up with a method to translate every scientific sentence into a structured one consisting solely of (i) logical symbols and (ii) terms that refer to the objects “the given” such that (iii) the defined expression and the defining expression of each of the definitions necessarily have the same truth conditions. It is clear from the mention of logical signs and sentences that Carnap’s translated sentence would involve connectives, quantifiers and primitive terms denoting concepts related to human sense experience. Although Carnap’s <em>Aufbau</em> is widely considered to have failed, much of analytic philosophy proceeding Carnap is focused on creating the tools for such a translation. This is clearly seen the in the study of modal logics. Modal logics attempt to extend the standard logical vocabulary of <span class="math"> ∧ ,  ∨ , ¬, ∀, ∃</span> with modal operators that capture certain abstractions used in everyday language. An example of this is epistemic logic, where propositions can be embedded in operators representing “a knows that” and “a believes that” (where a is an epistemic agent) in a manner similar to the classical operator <span class="math">∀</span>. Carnap’s <em>Aufbau</em> parallels the development of model theory, a methodology for studying mathematical theories. However, since 1945, a new methodology for studying mathematical theories has emerged called <em>Category Theory</em>. Category Theory has its advantages over model-theoretic methods in achieving the <em>Aufbau</em>’s goal, because the fundamental abstractions in category theory are <em>objects</em> (analogous to physical objects) and <em>morphisms</em> (analogous to conceptual relations between objects) whereas quantifiers, connectives, and modal operators are not so intimately connected with the scientific conception of the physical world.</p>
+<p>Ideally, I would like to think of the universe of objects apparent to my experience as lying in the (pseudo-mathematically precise) category of human sense objects. For which analyzing aspects of these physical objects require functorially mapping this category to some category of mathematical objects. To sketch this vision: I have a coffee mug sitting in front of me available to me through my visual sense. Suppose I would like to analyze this coffee mug’s deformation properties, then I would map this coffee mug to the category of topological spaces that describes the topology of the coffee mug. Using the tools in the category of topological spaces, I would find that the topological space of the coffee mug is homeomorphic to the torus. Now I can conclude that given the resources to make a coffee cup deform continuously, I can deform the coffee mug to a donut.</p>
+<p>Of course, the topological properties of the mug are not the only properties of the mug I might care about. Suppose I would like to calculate the volume that this mug could hold. Volume is a statement about space, so to do this I would consider the functor from the category of human sense objects to the category of measure spaces. Specifically, the space around the mug would correspond to the Lebesgue measure that measures subsets of Euclidean space <span class="math">R<sup>3</sup></span> (for which the mug is a definable subset of Euclidean space).</p>
+<p>In this view, these functors from the category of human sense objects, capture Carnap’s original idea of a translation from an imprecise sentence to logio-mathematical sentence. In presenting such a functor, the connection between a physical object and a mathematical model for such an object is clearly stated.</p>
+<p>Edited by: <a href="http://www.rostomyan.net/cv.php">Hunan Rosotmyan</a></p>
+		</div>
+	    </div>
+	    <div class="row">
+		<div class="four columns offset-by-six">
+		    <h4 style="text-align: center;">Contact</h3>
+		    <center><a href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#110;&#105;&#104;&#105;&#108;&#64;&#98;&#101;&#114;&#107;&#101;&#108;&#101;&#121;&#46;&#101;&#100;&#117;'>&#110;&#105;&#104;&#105;&#108;&#64;&#98;&#101;&#114;&#107;&#101;&#108;&#101;&#121;&#46;&#101;&#100;&#117;</a></center>
+		</div>
+	    </div>
+	    <div class="row">
+		<div class="four columns offset-by-six">
+		    <center><a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/80x15.png" /></a></center>
+		</div>
+	    </div>
+	</div><!-- container -->
+
+
+<!-- End Document
+================================================== -->
+</body>
+</html>
+]]></summary>
+</entry>
+<entry>
+    <title>Why this Blog Exists</title>
+    <link href="http://nihil.io/posts/why_this_blog_exists.html" />
+    <id>http://nihil.io/posts/why_this_blog_exists.html</id>
+    <published>2013-06-19T00:00:00Z</published>
+    <updated>2013-06-19T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Why this Blog Exists</title>
+	<meta name="description" content="A place on the web to showcase nihil's projects and thoughts">
+	<meta name="author" content="nihils">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="../stylesheets/base.css">
+	<link rel="stylesheet" href="../stylesheets/skeleton.css">
+	<link rel="stylesheet" href="../stylesheets/layout.css">
+
+	<!-- Javascript
+  ================================================== -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+</head>
+<body>
+	<!-- Primary Page Layout
+	================================================== -->
+	<div class="container">
+	    <div class="row"> 
+		<div class="two columns">
+		    <a href="../index.html">&larr; list</a>
+		</div>
+		<div class="sixteen columns">
+		  <center><h2>Why this Blog Exists</h2></center>
+		</div>
+		<div class="two columns offset-by-eight">
+		  <center><h6>by Nihil Shah</h6></center>
+		</div>
+		<div class="two columns offset-by-fifteen">
+		  <h6>June 19, 2013</h6>
+		</div>
+	    </div>
+	    <hr class="large"/>
+	    <div class="row">
+		<div class="sixteen columns">
+		<p>This blog exists as a way to archive, for future reference, various ideas I have. Hopefully, these posts will encourage feedback and open possible avenues of collaboration. The topics will mostly be related to mathematics, computer science and occasionally philosophy. I will try to make each post accessible to anyone who has interests in the fields mentioned. This blog is a static site generated using <a href="http://johnmacfarlane.net/pandoc/">pandoc</a> with <a href="http://jaspervdj.be/hakyll/">Haykll</a></p>
+		</div>
+	    </div>
+	    <div class="row">
+		<div class="four columns offset-by-six">
+		    <h4 style="text-align: center;">Contact</h3>
+		    <center><a href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#110;&#105;&#104;&#105;&#108;&#64;&#98;&#101;&#114;&#107;&#101;&#108;&#101;&#121;&#46;&#101;&#100;&#117;'>&#110;&#105;&#104;&#105;&#108;&#64;&#98;&#101;&#114;&#107;&#101;&#108;&#101;&#121;&#46;&#101;&#100;&#117;</a></center>
+		</div>
+	    </div>
+	    <div class="row">
+		<div class="four columns offset-by-six">
+		    <center><a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/80x15.png" /></a></center>
+		</div>
+	    </div>
+	</div><!-- container -->
+
+
+<!-- End Document
+================================================== -->
+</body>
+</html>
+]]></summary>
+</entry>
+<entry>
+    <title>How to Generate Escape Time Fractals</title>
+    <link href="http://nihil.io/posts/how_to_generate_escape_time_fractals.html" />
+    <id>http://nihil.io/posts/how_to_generate_escape_time_fractals.html</id>
+    <published>2013-06-19T00:00:00Z</published>
+    <updated>2013-06-19T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>How to Generate Escape Time Fractals</title>
+	<meta name="description" content="A place on the web to showcase nihil's projects and thoughts">
+	<meta name="author" content="nihils">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="../stylesheets/base.css">
+	<link rel="stylesheet" href="../stylesheets/skeleton.css">
+	<link rel="stylesheet" href="../stylesheets/layout.css">
+
+	<!-- Javascript
+  ================================================== -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+</head>
+<body>
+	<!-- Primary Page Layout
+	================================================== -->
+	<div class="container">
+	    <div class="row"> 
+		<div class="two columns">
+		    <a href="../index.html">&larr; list</a>
+		</div>
+		<div class="sixteen columns">
+		  <center><h2>How to Generate Escape Time Fractals</h2></center>
+		</div>
+		<div class="two columns offset-by-eight">
+		  <center><h6>by Nihil Shah</h6></center>
+		</div>
+		<div class="two columns offset-by-fifteen">
+		  <h6>June 19, 2013</h6>
+		</div>
+	    </div>
+	    <hr class="large"/>
+	    <div class="row">
+		<div class="sixteen columns">
+		<p>Two years ago, I had a tumblr (therealnihil) where I would post fractals I generated using <a href="http://gnofract4d.sourceforge.net/">gnofract4d</a> and some bash scripts. Unfortunately, I deleted it one night. A lot of the fractals are still accessible via reposts. Every one of the posts would link to a tutorial I wrote on how to generate escape time fractals. Here’s the text of that tutorial, slightly modified:</p>
+<h4 id="escape-time-fractals-generating-the-mandelbrot-set">Escape-Time Fractals: Generating the Mandelbrot Set</h4>
+<p>I think I’ve shown enough proof of just how cool escape-time fractals can look. So I thought I would write a tutorial on how they are generated. I have a pseudocode example for the Mandelbrot set at the end of this post.</p>
+<p>A large class of fractals (not just escape-time fractals) are generated by repeating a certain rule over, and over again. For example: the Cantor set is generated by splitting a line into three parts and erasing the middle part; then split into three and erase the middle part on the remaining two lines; then split into three and erase the middle part on the remaining four lines; and so on.</p>
+<p>Escape-time fractals also repeat a rule over and over again—but instead of pencil movements—a formal formula is repeated for a certain number of iterations.</p>
+<p>A escape time fractal is generated by continually repeating a formula for a certain number of iterations. If the formula’s output for a certain parameter (represented by c in the Mandelbrot set) is unbounded (it continues to approach infinity; well technically you can’t approach infinity, but it keeps getting bigger) then that parameter is not in that set. If the formula’s output for the parameter is bounded, it is in that set.</p>
+<pre><code>n = 1000
+for each pixel on the screen:
+    c = complex(pixel.x, pixel.y) 
+    z = complex(0, 0)    
+    i = 0
+
+    while (i &lt; n):
+        z = z^2 + c
+        if (|z| &gt; 2): break
+        i++
+
+    if (i == n):
+        color(pixel, 0xFFFFFF)
+    else:
+        color(pixel, i)</code></pre>
+<p>So in the above code, the formula <span class="math"><em>z</em> = <em>z</em><sup>2</sup> + <em>c</em></span> is repeated, if at some point during the 1000 iterations z’s magnitude (absolute value) exceeds 2, then break the loop; c isn’t in the Mandelbrot set. If it is in the Mandelbrot set, then color the pixel white. If it isn’t in the Mandelbrot set, color the pixel based on the number of iterations it took to escape. The larger the n, the more detailed the fractal is. There are tons of things to experiment with: the coloring algorithm, the bailout algorithm, the escape radius, the set’s formula itself, try every other pixel instead of every pixel…</p>
+		</div>
+	    </div>
+	    <div class="row">
+		<div class="four columns offset-by-six">
+		    <h4 style="text-align: center;">Contact</h3>
+		    <center><a href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#110;&#105;&#104;&#105;&#108;&#64;&#98;&#101;&#114;&#107;&#101;&#108;&#101;&#121;&#46;&#101;&#100;&#117;'>&#110;&#105;&#104;&#105;&#108;&#64;&#98;&#101;&#114;&#107;&#101;&#108;&#101;&#121;&#46;&#101;&#100;&#117;</a></center>
+		</div>
+	    </div>
+	    <div class="row">
+		<div class="four columns offset-by-six">
+		    <center><a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/80x15.png" /></a></center>
+		</div>
+	    </div>
+	</div><!-- container -->
+
+
+<!-- End Document
+================================================== -->
+</body>
+</html>
+]]></summary>
+</entry>
+
+</feed>
