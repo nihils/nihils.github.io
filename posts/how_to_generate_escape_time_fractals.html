@@ -80,7 +80,7 @@ for each pixel on the screen:
         color(pixel, 0xFFFFFF)
     else:
         color(pixel, i)</code></pre>
-<p>So in the above code, the formula <span class="math"><em>z</em> = <em>z</em><sup>2</sup> + <em>c</em></span> is repeated, if at some point during the 1000 iterations z’s magnitude (absolute value) exceeds 2, then break the loop; c isn’t in the Mandelbrot set. If it is in the Mandelbrot set, then color the pixel white. If it isn’t in the Mandelbrot set, color the pixel based on the number of iterations it took to escape. The larger the n, the more detailed the fractal is. There are tons of things to experiment with: the coloring algorithm, the bailout algorithm, the escape radius, the set’s formula itself, try every other pixel instead of every pixel…</p>
+<p>So in the above code, the formula <span class="math">\(z = z^{2} + c\)</span> is repeated, if at some point during the 1000 iterations z’s magnitude (absolute value) exceeds 2, then break the loop; c isn’t in the Mandelbrot set. If it is in the Mandelbrot set, then color the pixel white. If it isn’t in the Mandelbrot set, color the pixel based on the number of iterations it took to escape. The larger the n, the more detailed the fractal is. There are tons of things to experiment with: the coloring algorithm, the bailout algorithm, the escape radius, the set’s formula itself, try every other pixel instead of every pixel…</p>
 		</div>
 	    </div>
 	    <div class="row">
