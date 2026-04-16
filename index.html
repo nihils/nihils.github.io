@@ -1,114 +1,349 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<html lang="en">
 <head>
+    <meta charset="utf-8">
+    <title>Nihil Shah | Mathematician</title>
 
-	<!-- Basic Page Needs
-  ================================================== -->
-	<meta charset="utf-8">
-	<title>nihil</title>
-	<meta name="description" content="A place on the web to showcase nihil's projects and thoughts">
-	<meta name="author" content="nihils">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/skeleton.css">
+    <link rel="stylesheet" href="./css/custom.css">
 
-	<!-- Mobile Specific Metas
-  ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-	<!-- CSS
-  ================================================== -->
-	<link rel="stylesheet" href="stylesheets/base.css">
-	<link rel="stylesheet" href="stylesheets/skeleton.css">
-	<link rel="stylesheet" href="stylesheets/layout.css">
-	<link href="http://fonts.googleapis.com/css?family=Coda" rel="stylesheet" type="text/css">
-
-	<!-- Javascript
-  ================================================== -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-	<!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-
-	<!-- Favicons
-	================================================== -->
-	<link rel="shortcut icon" href="images/favicon.ico">
-	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-	<!-- Primary Page Layout
-	================================================== -->
-	<div class="container">
-		<div class="row">
-		    <div id="navigation" class="sixteen columns">
-		     <!--<nav>-->
-		     	<h1 class="logo">nihil</h1>
-		     <!--</nav>-->
-		    </div>	
-		</div>
-		<hr class="large" />
-		<h3 class="logo">Blog</h3>
-		<div id="blog" class="row">
-  <div class="twelve columns offset-by-four">
-    <table id="blog_table">
-	
-	  <tr><td>2015 Jan 27</td><td><a href="./posts/an_introduction_to_current_foundations_of_mathematics.html">An Introduction to the Foundations of Mathematics</a></td></tr>
-	
-	  <tr><td>2014 Jun 19</td><td><a href="./posts/category_theory_revitalization_of_carnaps_aufbau.html">Category Theory and Carnap's Aufbau</a></td></tr>
-	
-	  <tr><td>2013 Jun 19</td><td><a href="./posts/why_this_blog_exists.html">Why this Blog Exists</a></td></tr>
-	
-	  <tr><td>2013 Jun 19</td><td><a href="./posts/how_to_generate_escape_time_fractals.html">How to Generate Escape Time Fractals</a></td></tr>
-	
-    </table>
-  </div>
-</div>
 
-		<hr class="large" />
-		<h3 class="logo">Programming</h3>
-		<div id="projects" class="row">
-		    <div class="four columns"> 
-			<div id="project">
-			    <h4 class="logo">FractalAscii</h4> 
-			    <a href="http://github.com/nihils/FractalAscii"><img width="200" height="140" src="images/FractalAscii.png" /></a>
-			    <p>A command line ascii fractal generator written in Haskell.<p>
-			</div>
-		    </div>
-		    <div class="four columns">
-			<div id="project">
-			  <h4 class="logo">Audiogen</h4>
-			  <a href="http://github.com/nihils/Audiogen"><img width="200" height="140" src="images/Audiogen.png" /></a>
-			  <p>An basic audio synthesis library I created in haXe.</p>
-			</div>
-		    </div>
-		    <div class="four columns">
-			<div id="project"> 
-			  <h4 class="logo">DoublePendulum</h4>
-			  <a href="http://github.com/nihils/DoublePendulum"><img width="200" height="140" src="images/DoublePendulum.png" /></a>
-			  <p>A simulation of the chaotic dynamics written in Processing.</p>
-			</div>
-		    </div>
-		    <div class="four columns"> 
-			<div id="project">
-			    <h4 class="logo">MLXO</h4>
-			    <a href="http://github.com/nihils/MLXO"><img width="200" height="140" src="images/MLXO.png" /></a>
-			    <p>Some machine learning algorithms written in haXe</p>
-			</div>
-		    </div>
-		</div>
-		<div class="row">
-		    <div class="four columns offset-by-six">
-			<h4 class="logo" style="text-align: center;">Contact</h4>
-			<center><a href="mailto:nihil@berkeley.edu">nihil@berkeley.edu</a></center>
-		    </div>
-		</div>
-	</div><!-- container -->
+    <div class="container">
+        <header class="row" style="margin-top: 4rem; margin-bottom: 2rem; text-align: center;">
 
+            <div class="six columns">
+                <h2 style="margin-bottom: 0;">Nihil Shah</h2>
+                <nav>
+                    <a href="./">Home</a> |
+                    <a href="./files/cv.pdf" target="_blank">CV (PDF)</a> |
+                    <a href="mailto:me@nihil.io">Email</a>
+                </nav>
+            </div>
 
-<!-- End Document
-================================================== -->
+            <div class="five columns social-links">
+              <a href="https://orcid.org/0000-0003-2844-0828" title="ORCID"><i class="fab fa-orcid"></i></a>
+              <a href="https://scholar.google.com/citations?hl=en&user=GFfwRwYAAAAJ" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+              <a href="https://dblp.org/pid/222/2733.html" title="DBLP"><i class="fas fa-database"></i></a>
+              <a href="https://github.com/nihils" title="GitHub"><i class="fab fa-github"></i></a>
+              <a href="https://linkedin.com/in/nihils" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+              <a href="./files/cv.pdf" title="Download CV" class="cv-btn"><i class="fas fa-file-pdf"></i></a>
+            </div>
+        </header>
+        <hr>
+        <div class="row about-container">
+            <div class="eight columns about-text">
+                <p>I am a theoretical computer scientist and mathematician.
+My research explores the use of categorical semantics to provide new approaches to problems in mathematical logic, computational complexity, and quantum information.
+My first work along these lines were seminal contributions to the game comonads project.
+This project uses a categorical abstraction (comonads), successful in abstract algebra and programming language theory, to formalise a key technique in logic (model-comparision games).
+This project has been successful in formalising games for wide-range of logics and discovering new results relating combinatorial parameters with logical resources.</p>
+<p>Currently, my work involves studying the piecewise algebraic structures ubiquitious in quantum information and associated complexity questions</p>
+<p>I am currently based at Cambridge University where I’m at Research Associate at the Department of Computer Science and Technology. I received my DPhil/PhD and MSc. from University of Oxford. I previously studied pure mathematics at University of California, Berkeley.</p>
+            </div>
+            <div class="three columns">
+              <img src="./images/profile.jpg" alt="Nihil Shah Picture" class="profile-pic">
+            </div>
+        </div>
+        <hr>
+        <div class="row section">
+            <div class="twelve columns">
+              <h4>Publications</h4>
+                          <h5>Conference papers</h5>
+                <ul class="pub-list">
+                    
+                      <li class="pub-item">
+                        <div class="pub-meta">
+                          <span class="pub-year">2024</span> — <span class="pub-venue">Mathematical Foundations of Programming Semantics (MFPS)</span>
+                        </div>
+                        <div class="pub-title">Linear Arboreal Categories</div>
+                        <div class="pub-info">
+                          <div class="pub-authors">with Samson Abramsky, and Yoàv Montacute</div>
+
+                          <div class="pub-actions">
+                            
+                            <a href="https://doi.org/10.46298/entics.14830" class="button button-primary acad-btn" target="_blank">
+                              <i class="fas fa-link"></i>doi
+                            </a>
+                            
+
+                            
+                            <a href="./files/bib/linear_arboreal.bib" class="button acad-btn" download>
+                              <i class="fas fa-quote-right"></i> BibTeX
+                            </a>
+                            
+
+                            
+                            <a href="./files/abstract/linear_arboreal.txt" class="button acad-btn" target="_blank">
+                              <i class="fas fa-align-left"></i> Abstract
+                            </a>
+                            
+                          </div>
+                        </div>
+                    </li>
+                  
+                      <li class="pub-item">
+                        <div class="pub-meta">
+                          <span class="pub-year">2024</span> — <span class="pub-venue">Symposium on Logic in Computer Science (LICS)</span>
+                        </div>
+                        <div class="pub-title">No Go Theorems: Directed Containers That Do Not Distribute Over Distribution Monads</div>
+                        <div class="pub-info">
+                          <div class="pub-authors">with Amin Karamlou</div>
+
+                          <div class="pub-actions">
+                            
+                            <a href="https://doi.org/10.1145/3531130.3533335" class="button button-primary acad-btn" target="_blank">
+                              <i class="fas fa-link"></i>doi
+                            </a>
+                            
+
+                            
+                            <a href="./files/bib/no_go.bib" class="button acad-btn" download>
+                              <i class="fas fa-quote-right"></i> BibTeX
+                            </a>
+                            
+
+                            
+                            <a href="./files/abstract/no_go.txt" class="button acad-btn" target="_blank">
+                              <i class="fas fa-align-left"></i> Abstract
+                            </a>
+                            
+                          </div>
+                        </div>
+                    </li>
+                  
+                      <li class="pub-item">
+                        <div class="pub-meta">
+                          <span class="pub-year">2023</span> — <span class="pub-venue">Symposium on Logic in Computer Science (LICS)</span>
+                        </div>
+                        <div class="pub-title">A Categorical Account of Composition Methods in Logic</div>
+                        <div class="pub-info">
+                          <div class="pub-authors">with Tomáš Jakl, and Dan Marsden</div>
+
+                          <div class="pub-actions">
+                            
+                            <a href="https://doi.org/10.1109/LICS56636.2023.10175751" class="button button-primary acad-btn" target="_blank">
+                              <i class="fas fa-link"></i>doi
+                            </a>
+                            
+
+                            
+                            <a href="./files/bib/categorical_fvm_conference.bib" class="button acad-btn" download>
+                              <i class="fas fa-quote-right"></i> BibTeX
+                            </a>
+                            
+
+                            
+                            <a href="./files/abstract/categorical_fvm.txt" class="button acad-btn" target="_blank">
+                              <i class="fas fa-align-left"></i> Abstract
+                            </a>
+                            
+                          </div>
+                        </div>
+                    </li>
+                  
+                      <li class="pub-item">
+                        <div class="pub-meta">
+                          <span class="pub-year">2022</span> — <span class="pub-venue">Symposium on Logic in Computer Science (LICS)</span>
+                        </div>
+                        <div class="pub-title">The Pebble-Relation Comonad in Finite Model Theory</div>
+                        <div class="pub-info">
+                          <div class="pub-authors">with Yoàv Montacute</div>
+
+                          <div class="pub-actions">
+                            
+                            <a href="https://doi.org/10.1145/3531130.3533335" class="button button-primary acad-btn" target="_blank">
+                              <i class="fas fa-link"></i>doi
+                            </a>
+                            
+
+                            
+                            <a href="./files/bib/pebble_relation_comonad_conference.bib" class="button acad-btn" download>
+                              <i class="fas fa-quote-right"></i> BibTeX
+                            </a>
+                            
+
+                            
+                            <a href="./files/abstract/pebble_relation_comonad.txt" class="button acad-btn" target="_blank">
+                              <i class="fas fa-align-left"></i> Abstract
+                            </a>
+                            
+                          </div>
+                        </div>
+                    </li>
+                  
+                      <li class="pub-item">
+                        <div class="pub-meta">
+                          <span class="pub-year">2018</span> — <span class="pub-venue">Computer Science Logic (CSL)</span>
+                        </div>
+                        <div class="pub-title">Relating Structure and Power: Comonadic Semantics for Computational Resources</div>
+                        <div class="pub-info">
+                          <div class="pub-authors">with Samson Abramsky</div>
+
+                          <div class="pub-actions">
+                            
+                            <a href="https://doi.org/10.4230/LIPIcs.CSL.2018.2" class="button button-primary acad-btn" target="_blank">
+                              <i class="fas fa-link"></i>doi
+                            </a>
+                            
+
+                            
+                            <a href="./files/bib/relating_structure_and_power_conference.bib" class="button acad-btn" download>
+                              <i class="fas fa-quote-right"></i> BibTeX
+                            </a>
+                            
+
+                            
+                            <a href="./files/abstract/relating_structure_and_power.txt" class="button acad-btn" target="_blank">
+                              <i class="fas fa-align-left"></i> Abstract
+                            </a>
+                            
+                          </div>
+                        </div>
+                    </li>
+                  
+                </ul>
+                <h5>Journal papers</h5>
+                <ul class="pub-list">
+                    
+                      <li class="pub-item">
+                        <div class="pub-meta">
+                          <span class="pub-year">2025</span> — <span class="pub-venue">Logical Methods in Computer Science (LMCS)</span>
+                        </div>
+                        <div class="pub-title">A Categorical Account of Composition Methods in Logic</div>
+                        <div class="pub-info">
+                          <div class="pub-authors">with Tomáš Jakl, and Dan Marsden</div>
+
+                          <div class="pub-actions">
+                            
+                            <a href="https://doi.org/10.46298/lmcs-21(4:10)2025" class="button button-primary acad-btn" target="_blank">
+                              <i class="fas fa-link"></i>doi
+                            </a>
+                            
+
+                            
+                            <a href="./files/bib/categorical_fvm_journal.bib" class="button acad-btn" download>
+                              <i class="fas fa-quote-right"></i> BibTeX
+                            </a>
+                            
+
+                            
+                            <a href="./files/abstract/categorical_fvm.txt" class="button acad-btn" target="_blank">
+                              <i class="fas fa-align-left"></i> Abstract
+                            </a>
+                            
+                          </div>
+                        </div>
+                      </li>
+                  
+                      <li class="pub-item">
+                        <div class="pub-meta">
+                          <span class="pub-year">2024</span> — <span class="pub-venue">Logical Methods in Computer Science (LMCS)</span>
+                        </div>
+                        <div class="pub-title">The Pebble-Relation Comonad in Finite Model Theory</div>
+                        <div class="pub-info">
+                          <div class="pub-authors">with Yoàv Montacute</div>
+
+                          <div class="pub-actions">
+                            
+                            <a href="https://doi.org/10.46298/lmcs-20(2:9)2024" class="button button-primary acad-btn" target="_blank">
+                              <i class="fas fa-link"></i>doi
+                            </a>
+                            
+
+                            
+                            <a href="./files/bib/pebble_relation_comonad_journal.bib" class="button acad-btn" download>
+                              <i class="fas fa-quote-right"></i> BibTeX
+                            </a>
+                            
+
+                            
+                            <a href="./files/abstract/pebble_relation_comonad.txt" class="button acad-btn" target="_blank">
+                              <i class="fas fa-align-left"></i> Abstract
+                            </a>
+                            
+                          </div>
+                        </div>
+                      </li>
+                  
+                      <li class="pub-item">
+                        <div class="pub-meta">
+                          <span class="pub-year">2021</span> — <span class="pub-venue">Journal of Logic and Computation (JLC)</span>
+                        </div>
+                        <div class="pub-title">Relating Structure and Power: Comonadic Semantics for Computational Resources</div>
+                        <div class="pub-info">
+                          <div class="pub-authors">with Samson Abramsky</div>
+
+                          <div class="pub-actions">
+                            
+                            <a href="https://doi.org/10.1093/logcom/exab048" class="button button-primary acad-btn" target="_blank">
+                              <i class="fas fa-link"></i>doi
+                            </a>
+                            
+
+                            
+                            <a href="./files/bib/relating_structure_and_power_journal.bib" class="button acad-btn" download>
+                              <i class="fas fa-quote-right"></i> BibTeX
+                            </a>
+                            
+
+                            
+                            <a href="./files/abstract/relating_structure_and_power.txt" class="button acad-btn" target="_blank">
+                              <i class="fas fa-align-left"></i> Abstract
+                            </a>
+                            
+                          </div>
+                        </div>
+                      </li>
+                  
+                </ul>
+
+            </div>
+        </div>
+        <hr>
+        <div class="row section">
+            <div class="six columns">
+                <h4>Teaching & Mentorship</h4>
+                <div class="news-box">
+                  <h5 id="university-of-cambridge">University of Cambridge</h5>
+<ul>
+<li>Lent 2024 - Topics in Logic in Complexity</li>
+</ul>
+<h5 id="university-of-oxford">University of Oxford</h5>
+<ul>
+<li>Michaelmas 2023 - Algorithms and Complexity</li>
+<li>Trinity 2021 - Logic and Proof</li>
+<li>Michaelmas 2021 - Categories, Proofs and Processes</li>
+<li>Michaelmas 2020 - Functional Programming</li>
+</ul>
+                </div>
+            </div>
+            <div class="six columns">
+              
+                    <h4>Talks and news</h4>
+                    <div class="news-box">
+                        <ul>
+<li>27-29 May 2026 - Attending the <a href="https://aminkaramlou.github.io/ric/">Workshop on Resources and Computation</a>, University College London</li>
+<li>20 Mar 2026 - Talk (Logic &amp; Semantics Seminar), University of Cambridge</li>
+<li>20 Feb 2026 - <a href="https://researchseminars.org/talk/TheoryCSBham/70/">Invited Talk (Theory Seminar)</a>, University of Birmingham</li>
+</ul>
+                    </div>
+             
+            </div>
+        </div>
+        <hr>
+
+        <footer class="row" style="margin-top: 5rem; padding-bottom: 2rem; color: #7f8c8d; font-size: 1.2rem;">
+            <div class="twelve columns">
+                <p>&copy; 2026 Nihil Shah. Created with Hakyll and Skeleton CSS.</p>
+            </div>
+        </footer>
+    </div>
+
 </body>
 </html>
